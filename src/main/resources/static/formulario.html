@@ -1,0 +1,48 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<h1>Ejemplo Formulario con Spring y Bootstrap</h1>
+<br>
+
+<form class="form-horizontal" action='anuncio'>
+<div class="form-group has-success has-feedback">
+ <label for="inputGroupSuccess1" class="col-md-1 control-label" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">Nombre</label>
+ <div class="col-md-2">
+<input type='text' class="form-control"  name='nombre'>
+ <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+</div>
+</div>
+<div class="form-group has-success has-feedback">
+ <label for="Asunto" class="col-md-1 control-label">Asunto</label>
+ <div class="col-md-2">
+<input type='text' class="form-control"name='asunto'>
+ <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+</div>
+</div>
+<div class="form-group has-success has-feedback">
+ <label for="Comentario" class="col-md-1 control-label">Comentario</label>
+ <div class="col-md-2 has-success has-feedback">
+<textarea name='texto' rows=5 cols=40> 
+Texto del cuadro de texto </textarea></br>
+
+</div>
+</div>
+<div class="form-group">
+    <div class="col-sm-offset-1 col-md-2">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Recordarme 
+        </label>
+      </div>
+    </div>
+  </div>
+<input class="col-sm-offset-1 btn btn-info " type="submit" value="Submit">
+
+</div>
+</form>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: alejandrob.
+Build-Jdk: 9.0.4
+Implementation-Title: demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: eads.upm.es
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/app
+Created-By: Maven Integration for Eclipse
+
